@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    /* background-image: url(https://studiobackdrops.co.za/wp-content/uploads/2020/09/DWO01-Dark-Natual-Wood-Vertical.jpg?v=1600863694); */
+    background-image: url(https://img.pikbest.com/wp/202344/marble-texture-wall-textured-elegance-captivating-design_9924374.jpg!bw700);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+#brand-name{
+    display: inline;
+    padding: 2px 5px;
+    margin: 0;
+    position: relative;
+    top: -27px;
+    font-size: 40px;
+    color: rgb(41, 40, 40);
+}
+
+nav{
+    display: inline-block;
+}
+
+.nav2{
+    
+    font-family: 'Trebuchet MS';
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    margin-right: 15px;
+}
+
+.nav2{
+    margin-right: 15px;
+    justify-content: space-around;
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(41, 40, 40);
+    padding: 5px 5px;
+    position: relative; 
+    left: 5px;
+}
+
+#navbar{
+    margin-left: 200px;
+}
+
+.nav2:hover{
+    color: rgb(9, 132, 189);
+    border: black solid 1px;
+    padding: transparent 5px;
+}
+
+#chessboard-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: rgb(11, 40, 56) solid 10px;
+    width: 480px;
+    height: 480px;
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    font-size: 50px;
+    border-radius: 4px;
+    transform: translateX(-50%);
+}
+
+.white {
+    background-color: whitesmoke;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+}
+
+.black {
+    background-color: rgb(3, 77, 110);
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+}   
+
+#chessboard-container div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#players{
+    margin: 0;
+}
+
+#player1{
+    display: inline-block;
+    position: relative;
+    bottom: 480px;
+    left: 60px;
+    font-size: 50px;
+}
+
+#player2{
+    display: inline-block;
+    position: relative;
+    bottom: 141px;
+    left: 5px;
+    font-size: 50px;
+}
+
+#name1{
+    display: inline-block;
+    position: relative;
+    bottom: 522px;
+    left: 113px;
+    font-size: 20px;
+}
+
+#name2{
+    display: inline-block;
+    position: relative;
+    left: 38px;
+    bottom: 180px;
+    font-size: 20px;
+}
+
+#ctrl{
+    display: inline-block;
+    font-size: 30px;
+}
+
+#undo{
+    position: absolute;
+    right: 200px;
+    top: 270px;
+    color: white;
+    padding: 5px 5px;
+    background-color: gray;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#undo:hover{
+    color: gray;
+    border: black solid 3px;
+    padding: 5px;   
+    background-color: white;
+}
+
+#undo:active{
+    background-color: rgb(9, 132, 189);
+
+}
+
+#hint{
+    position: absolute;
+    right: 200px;
+    top: 350px;
+    color: white;
+    padding: 5px 5px;
+    background-color: black
+}
+
+#hint:hover{
+    color: black;
+    border: black solid 3px;
+    padding: 5px;   
+    background-color: yellow;
+}
